@@ -1,0 +1,14 @@
+.casella{
+    background-color:aquamarine;
+    position: absolute;
+    border-style: groove;
+}
+#table{
+    position: relative;
+    margin:auto;
+}
+div[popped~="true"]
+{
+    background-color: white;
+    color: #000;
+}
