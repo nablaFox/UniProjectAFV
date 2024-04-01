@@ -1,0 +1,32 @@
+.casella {
+  background-color: aquamarine;
+  position: absolute;
+  border-style: groove;
+  display: block;
+}
+#table {
+  position: relative;
+  margin: auto;
+}
+
+[popped~='true'] {
+  background-color: white;
+  color: #000;
+}
+
+[flag~='true'] {
+  background-color: #000;
+}
+
+button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  margin-left: 110%;
+  margin-top: 50%;
+}
